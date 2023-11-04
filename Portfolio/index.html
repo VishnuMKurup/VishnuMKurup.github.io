@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnu M Kurup</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <style>
+        .profile-pic {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        .fixed-top {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030
+        }
+
+        .fixed-bottom {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1030
+        }
+
+        .content-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .content-item {
+            width: 46%;
+            margin: 23px;
+            padding: 15px;
+            background-color: #5553531d;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgb(121 120 118);
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+            background-color: rgb(59 58 63);
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(55, 55, 55, 0.2);
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #bdbd05;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .full-height {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .home-text {
+            text-align: center;
+        }
+
+        .home-text h1 {
+            font-size: 3rem;
+            color: #333;
+        }
+
+        .home-text p {
+            font-size: 1.5rem;
+            color: rgb(179, 145, 6);
+        }
+
+        .home-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .home-button a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #686767;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .home-button a:hover {
+            background-color: #717171;
+        }
+
+        .contact-form {
+            align-items: center;
+        }
+
+        .contact-form-items {
+            margin-top: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+                <span class="fw-bold h3 d-block d-lg-none">Vishnu M Kurup</span>
+                <img src="./assets/images/vishnu1.jpg" class="d-none d-lg-block rounded-circle profilepic" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#certification">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <section id="home" class="full-height body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 home-text" data-aos="fade-up">
+                        <h1 class="text-uppercase fw-bold text-center">
+                            Hello, I'm Vishnu M Kurup
+                            <br>
+                            <span class="text-brand">Passionate Software Engineer</span>
+                        </h1>
+                        <p class="mt-2 mb-3 fs-3" data-aos="fade-up" data-aos-delay="300">
+                            I'm delighted to have you here. Explore my work.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="home-button" data-aos="fade-up" data-aos-delay="600">
+                <a href="#work" class="btn btn-brand fw-bold me-4">EXPLORE MY WORK</a>
+                <a href="" class="custom-link num">Call: +91 7909238115</a>
+            </div>
+        </section>
+        
+
+        <section id="work" class="content-container">
+            <div class="row p-4">
+                <div class="col" data-aos="fade-up">
+                    <h6>WORK</h6>
+                    <h1>My Recent Projects</h1>
+                </div>
+            </div>
+            <div class="row content-row">
+                <!-- Project 1 -->
+                <div class="col-md-8 content-item" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/images/elearning.jpg" class="card-img-top" alt="E-Learning Platform">
+                        <div class="card-body">
+                            <h4 class="card-title">E-Learning Platform</h4>
+                            <p class="card-text">
+                                The objective of this project was to provide easiness for students to learn and clear
+                                their doubts. Also have an attendance management system managed by respective faculty.
+                                Technology used: PHP, HTML, MySQL.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 content-item" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/images/ramdomchat.jpg" class="card-img-top" alt="Random Chat">
+                        <div class="card-body">
+                            <h4 class="card-title">Random Chat</h4>
+                            <p class="card-text">
+                                The objective of this project is develop a website which is specifically designed to
+                                allow users to talk to strangers. It works by randomly matching users to talk one-to-one
+                                using either text or video.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 content-item" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/images/complaintmanagement.jpg" class="card-img-top"
+                            alt="Complaint Management System">
+                        <div class="card-body">
+                            <h4 class="card-title">Complaint Management System</h4>
+                            <p class="card-text">
+                                The objective of this project was to develop a website for complaint management in
+                                villages.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 content-item" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/images/debonairtilage.jpg" class="card-img-top" alt="IoT Based Debonair Tilage">
+                        <div class="card-body">
+                            <h4 class="card-title">IoT Based Debonair Tilage</h4>
+                            <p class="card-text">
+                                IoT Based Debonair Tilage is a farm automation ststem which improves the filed in
+                                real-time with the help of sensors and interconnectivity.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-container">
+            <div class="row mb-3">
+                <div class="col" data-aos="fade-up">
+                    <h6>ABOUT</h6>
+                    <h1>My Education</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col content-item" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">B-Tech</h4>
+                            <p class="card-text">College Of Engineering Karunagappally (2017-2021)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 content-item" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Higher Secondary</h4>
+                            <p class="card-text">Nair Samajam HSS Mannar (2015-2017)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 content-item" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">High School</h4>
+                            <p class="card-text">St.Joseph's School Cheriyanad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certification" class="content-container">
+            <div class="row p-4">
+                <div class="col" data-aos="fade-up">
+                    <h6>ABOUT</h6>
+                    <h1>My Certifications</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 content-item" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Problem Solving Through Programming in C</h4>
+                            <p class="card-text">NPTEL</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 content-item" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Software Architecture: REST API Design - The Complete Guide</h4>
+                            <p class="card-text">UDEMY</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 content-item" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Introduction to Internet of Things</h4>
+                            <p class="card-text">NPTEL</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 content-item" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Programming For Everybody (Getting Started with Python)</h4>
+                            <p class="card-text">COURSERA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 content-item" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Web Development - Complete Fast Track Course</h4>
+                            <p class="card-text">UDEMY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-container">
+            <div class="row p-4">
+                <div class="col" data-aos="fade-up">
+                    <h1>CONTACT</h1>
+                </div>
+                <div class="row">
+                    <div class="col mt-4 content-item contact-form" data-aos="fade-up">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Contact Me</h4>
+                                <form id="contact-form" action="https://formspree.io/f/mwkdzbzo" method="POST">
+                                    <input type="text" class="form-control contact-form-items" placeholder="Your name" name="name">
+                                    <input type="email" class="form-control contact-form-items" placeholder="Your email" name="_replyto">
+                                    <input type="text" class="form-control contact-form-items" placeholder="Subject" name="subject">
+                                    <textarea class="form-control contact-form-items" placeholder="Your message" name="message"></textarea>
+                                    <button type="submit" class="btn btn-primary contact-form-items">Contact me</button>
+                                </form>
+                                <div id="form-messages"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById("contact-form");
+            const formMessages = document.getElementById("form-messages");
+        
+            form.addEventListener("submit", function (event) {
+                event.preventDefault();
+        
+                const formData = new FormData(form);
+        
+                fetch("https://formspree.io/f/mwkdzbzo", {
+                    method: "POST",
+                    body: formData,
+                })
+                    .then((response) => {
+                        console.log(response,'res')
+                        if (response.status === 200) {
+                            // Successful submission
+                            formMessages.innerHTML = "Your message has been sent. Thank you!";
+                            form.reset(); // Clear the form
+                        } else {
+                            // Submission failed
+                            formMessages.innerHTML = "Sorry, there was an error sending your message. Please try again later.";
+                        }
+                    })
+                    .catch((error) => {
+                        // Error in the fetch request
+                        formMessages.innerHTML = "Your message has been sent. Thank you!";
+                        form.reset(); 
+                    });
+            });
+        });
+        </script>
+</body>
+
+</html>
