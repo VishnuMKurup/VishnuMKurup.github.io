@@ -2,10 +2,10 @@
 
 :root {
   --color-body: #b6cbce;
-  --color-heading: #aabf58;
-  --color-base: #057786;
+  --color-heading: #c2f306;
+  --color-base: #707171;
   --color-base2: #022a30;
-  --color-brand: #FFFF00;
+  --color-brand: #f4f46c;
   --color-brand2: #46540f;
   --color-brand3: #0f1200;
   --sidbar-width: 240px;
@@ -59,14 +59,14 @@ img {
   color: white;
 }
 .navbar .nav-link:hover {
-  color: var(--color-brand);
+  color: var(--color-brand) !important;
 }
 
 @media (min-width: 992px) {
   .navbar {
     min-height: 100vh !important;
     max-width: var(--sidbar-width) !important;
-    background: linear-gradient(rgba(147, 147, 12, 0.929), rgba(150, 167, 1, 0.9)),
+    background: linear-gradient(rgba(204, 204, 203, 0.929), rgba(123, 123, 122, 0.9)),
       url("/assets/images/sidebar-img.jpg") !important;
     background-size: cover;
     background-position: center;
